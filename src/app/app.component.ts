@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Quote } from './quote';
 
 @Component({
   selector: 'app-root',
@@ -6,12 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Quote';
-  quote:string[];
 
-  constructor(){
-    this.quote = ['The work proves the crafts man', 'Times moves slowly but passes quickly', 
-    'To be fond of learning is to be near to knowledge']
-  } 
 }
 
